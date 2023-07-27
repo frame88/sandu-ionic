@@ -25,6 +25,13 @@
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
 
+// GOOGLE FONT
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+  }
 
 .red {
     background-color: red;
@@ -32,6 +39,13 @@
 
 .blue {
     background-color: blue;
+}
+
+ul { 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
 }
 
 .white {
