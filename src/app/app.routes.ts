@@ -10,4 +10,8 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'navbar',
+    loadComponent: () => import('./shared/navbar/navbar.page').then( m => m.NavbarPage)
+  },
 ];

@@ -1,27 +1,114 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.row {
+  display: flex;
+  min-height: 10vh;
+  max-height: 30vh;
+  overflow: hidden;
+  margin: 5px 0px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.container-img {
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.uno {
+  background-image: url('../../assets/images/home/uno.jpg');
+  width: 33.3%;
+}
+.due {
+  background-image: url('../../assets/images/home/due.jpg');
+  width: 33.3%;
+  margin: 0px 5px;
+}
+.tre {
+  background-image: url('../../assets/images/home/tre.jpg');
+  width: 33.3%;
 }
 
-#container a {
-  text-decoration: none;
+// SECONDA RIGA
+.quattro {
+  background-image: url('../../assets/images/home/quattro.jpg');
+  width: 100%;
+}
+
+// TERZA RIGA
+.cinque {
+  background-image: url('../../assets/images/home/cinque.jpg');
+  width: 30%;
+  margin-right: 5px;
+}
+.sei {
+  background-image: url('../../assets/images/home/sei.jpg');
+  width: 70%;
+}
+
+// QUARTA RIGA
+.sette {
+  background-image: url('../../assets/images/home/sette.jpg');
+  width: 33.3%;
+}
+.otto {
+  background-image: url('../../assets/images/home/otto.jpg');
+  width: 33.3%;
+  margin: 0px 5px;
+}
+.nove {
+  background-image: url('../../assets/images/home/nove.jpg');
+  width: 33.3%;
+}
+
+// QUINTA RIGA
+.dieci {
+  background-image: url('../../assets/images/home/dieci.jpg');
+  width: 33.3%;
+}
+.undici {
+  background-image: url('../../assets/images/home/undici.jpg');
+  width: 33.3%;
+  margin: 0px 5px;
+}
+.dodici {
+  background-image: url('../../assets/images/home/dodici.jpg');
+  width: 33.3%;
+}
+
+// SESTA RIGA
+.tredici {
+  background-image: url('../../assets/images/home/tredici.jpg');
+  width: 100%;
+  height: 50%;
+  margin-bottom: 5px;
+}
+.quattordici {
+  background-image: url('../../assets/images/home/quattordici.jpg');
+  width: 100%;
+  height: 50%;
+}
+.quindici {
+  background-image: url('../../assets/images/home/quindici.jpg');
+  width: 33.3%;
+}
+.sedici {
+  background-image: url('../../assets/images/home/sedici.jpg');
+  width: 33.3%;
+  height: 50%;
+  margin-bottom: 5px;
+}
+.diciassette {
+  background-image: url('../../assets/images/home/diciassette.jpg');
+  width: 33.3%;
+  height: 50%;
+}
+
+// SETTIMA RIGA - ULTIMA
+.diciotto {
+  background-image: url('../../assets/images/home/diciotto.jpg');
+  width: 30%;
+  margin-right: 5px;
+}
+.diciannove {
+  background-image: url('../../assets/images/home/diciannove.jpg');
+  width: 70%;
 }

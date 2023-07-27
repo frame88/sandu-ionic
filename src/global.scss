@@ -56,6 +56,10 @@
     width: 30% !important;
 }
 
+.w33 {
+    width: 33.3% !important;
+}
+
 .w40 {
     width: 40% !important;
 }
@@ -110,6 +114,14 @@ s .w100vw {
 
 .h20 {
     height: 20% !important;
+}
+
+.min-vh10 {
+    max-height: 10vh !important;
+}
+
+.max-vh30 {
+    max-height: 30vh !important;
 }
 
 .h38px {
