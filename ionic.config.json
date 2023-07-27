@@ -1,0 +1,7 @@
+{
+  "name": "sandu-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
