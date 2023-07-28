@@ -30,4 +30,8 @@ export const routes: Routes = [
     path: 'presentazione',
     loadComponent: () => import('./features/iam/iam.page').then( m => m.IamPage)
   },
+  {
+    path: 'contacts',
+    loadComponent: () => import('./features/contacts/contacts.page').then( m => m.ContactsPage)
+  },
 ];
