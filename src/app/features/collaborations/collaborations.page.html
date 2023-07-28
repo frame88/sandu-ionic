@@ -1,0 +1,18 @@
+<div style="overflow: auto;">
+  <app-navbar></app-navbar>
+  <div class="align-center flex-column">
+    <div class="hr-custom"></div>
+    <div class="wrap" style="width: 60%;">
+      <div *ngFor="let collab of collabs" class="flex" style="width: 45%; margin: 1rem;">
+        <div class="align-center flex-column">
+          <div class="container-img">
+            <img src="{{collab.imgPath}}" alt="preview">
+          </div>
+          <div class="mt1">
+            <span>{{collab.title}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

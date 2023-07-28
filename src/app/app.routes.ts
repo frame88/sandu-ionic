@@ -22,4 +22,8 @@ export const routes: Routes = [
     path: 'animazioni',
     loadComponent: () => import('./features/animations/animations.page').then( m => m.AnimationsPage)
   },
+  {
+    path: 'collaborazioni',
+    loadComponent: () => import('./features/collaborations/collaborations.page').then( m => m.CollaborationsPage)
+  },
 ];
