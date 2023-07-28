@@ -18,4 +18,8 @@ export const routes: Routes = [
     path: 'libri',
     loadComponent: () => import('./features/libri/libri.page').then( m => m.LibriPage)
   },
+  {
+    path: 'animazioni',
+    loadComponent: () => import('./features/animations/animations.page').then( m => m.AnimationsPage)
+  },
 ];
