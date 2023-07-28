@@ -1,0 +1,26 @@
+<div style="overflow: auto;">
+  <app-navbar></app-navbar>
+  <div class="align-center flex-column">
+    <div class="hr-custom"></div>
+    <div class="wrap" style="width: 60%;">
+      <div *ngFor="let book of books" class="flex" style="width: 45%; margin: 1rem;">
+        <div class="align-center flex-column">
+          <div class="container-img">
+            <img src="{{book.imgPath}}" alt="preview">
+          </div>
+          <div class="mt1">
+            <span>{{book.title}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- EFFETTO IN HOVER SULLA COPERTINA
+    <div>
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </div> -->
+
+

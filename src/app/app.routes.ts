@@ -14,4 +14,8 @@ export const routes: Routes = [
     path: 'navbar',
     loadComponent: () => import('./shared/navbar/navbar.page').then( m => m.NavbarPage)
   },
+  {
+    path: 'libri',
+    loadComponent: () => import('./features/libri/libri.page').then( m => m.LibriPage)
+  },
 ];
