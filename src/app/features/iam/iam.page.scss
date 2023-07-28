@@ -1,0 +1,46 @@
+
+#container-portrait {
+    #square {
+        border-radius: 0 0 40% 0;
+        position: relative;
+        background-color: #d99775;
+        height: 200px;
+        width: 250px;
+        margin-top: 80px;
+        left: 5rem;
+
+        img {
+            position: absolute;
+            border-radius: 0 40% 0 0;
+            width: 120%;
+            height: auto;
+            left: 60px;
+            bottom: 40px;
+            z-index: 2;
+        }
+    }    
+}
+
+h2 { 
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+}
+
+ul {
+    display: block;
+    li {
+        margin: 1rem;
+        margin-left: 0;
+        
+        b {
+            font-weight: 700;
+        }
+    }
+}
+
+.parag {
+    background-color: #f1f6f4;
+    border-left: 3px solid #d99775;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
