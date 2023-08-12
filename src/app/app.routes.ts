@@ -11,10 +11,6 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'navbar',
-    loadComponent: () => import('./shared/navbar/navbar.page').then( m => m.NavbarPage)
-  },
-  {
     path: 'libri',
     loadComponent: () => import('./features/libri/libri.page').then( m => m.LibriPage)
   },
@@ -33,5 +29,9 @@ export const routes: Routes = [
   {
     path: 'contatti',
     loadComponent: () => import('./features/contacts/contacts.page').then( m => m.ContactsPage)
+  },
+  {
+    path: 'iam',
+    loadComponent: () => import('./features/iam/iam.page').then( m => m.IamPage)
   },
 ];

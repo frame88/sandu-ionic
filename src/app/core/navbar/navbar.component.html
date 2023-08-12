@@ -1,0 +1,15 @@
+<nav class="navbar">
+  <span class="logo">Emanuela Sandu</span>
+  <div class="menu-toggle" (click)="toggleNavbar()" [ngClass]="{'active': navbarOpen}">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+  <ul class="nav-list" [ngClass]="{'active': navbarOpen}">
+    <li><span class="nav-item" (click)="navigateTo('libri')">LIBRI</span></li>
+    <li><span class="nav-item" (click)="navigateTo('animazioni')">ANIMAZIONI</span></li>
+    <li><span class="nav-item" (click)="navigateTo('collaborazioni')">COLLABORAZIONI</span></li>
+    <li><span class="nav-item" (click)="navigateTo('iam')">CHI SONO</span></li>
+    <li><span class="nav-item" (click)="navigateTo('contatti')">CONTATTI</span></li>
+  </ul>
+</nav>

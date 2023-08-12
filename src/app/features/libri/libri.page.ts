@@ -2,14 +2,13 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
-import { NavbarPage } from 'src/app/shared/navbar/navbar.page';
 
 @Component({
   selector: 'app-libri',
   templateUrl: './libri.page.html',
   styleUrls: ['./libri.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule, NavbarPage]
+  imports: [IonicModule, CommonModule, FormsModule,  ]
 })
 export class LibriPage implements OnInit {
 
