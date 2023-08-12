@@ -1,0 +1,6 @@
+<div class="thumbnails">
+  <img style="width: 100px;" *ngFor="let image of album.images" [src]="image" (click)="selectImage(image)" alt="Thumbnail">
+</div>
+<div style="width: 300px;" class="selected-image">
+  <img [src]="selectedImage" alt="Selected Image">
+</div>

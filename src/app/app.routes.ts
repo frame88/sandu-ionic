@@ -34,4 +34,18 @@ export const routes: Routes = [
     path: 'iam',
     loadComponent: () => import('./features/iam/iam.page').then( m => m.IamPage)
   },
+  {
+    path: 'carousel',
+    loadComponent: () => import('./shared/carousel/carousel.page').then( m => m.CarouselPage)
+  },
+  {
+    path: 'buffetti',
+    loadComponent: () => import('./features/collaborations/buffetti/buffetti.page').then( m => m.BuffettiPage)
+  },  {
+    path: 'maredirefare',
+    loadComponent: () => import('./features/collaborations/maredirefare/maredirefare.page').then( m => m.MaredirefarePage)
+  },
+
+
+
 ];
